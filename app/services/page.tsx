@@ -17,8 +17,8 @@ export default function ServicesPage() {
           deliverables: ['Systems Audit', 'Maturity Assessment', 'Implementation Roadmap']
         },
         {
-          title: 'Regional Market Entry Architecture',
-          description: 'Specialized technical consulting for organizations looking to expand across East African markets with unique regulatory and infrastructure requirements.',
+          title: 'Global Market Expansion Architecture',
+          description: 'Specialized technical consulting for organizations looking to expand across complex international markets with unique regulatory and infrastructure requirements.',
           deliverables: ['Regulatory Tech Audit', 'Infrastructure Localization', 'Connectivity Strategy']
         }
       ]

@@ -44,7 +44,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-3xl text-muted-foreground/80 font-light leading-relaxed max-w-2xl mb-12 italic">
-              A premier consulting firm delivering strategic digital innovation and custom infrastructure across East Africa.
+              A premier consulting firm delivering strategic digital innovation and custom infrastructure for global enterprises.
             </p>
 
             <motion.div
@@ -87,7 +87,7 @@ export default function Home() {
                 className="flex flex-col gap-4 border-l border-black/5 pl-8"
               >
                 <div className="text-5xl md:text-6xl font-bold tracking-tighter text-foreground">{stat.number}</div>
-                <div className="text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-primary">{stat.label}</div>
+                <div className="text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-primary">{stat.label === 'Regional Hubs' ? 'Global Hubs' : stat.label}</div>
               </motion.div>
             ))}
           </div>
@@ -130,7 +130,7 @@ export default function Home() {
                 <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary mb-4 block">Retail Technology</span>
                 <h4 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 md:mb-6">Global E-Commerce Transformation</h4>
                 <p className="text-muted-foreground text-base md:text-lg font-light leading-relaxed mb-6 md:mb-8">
-                  A complete digital overhaul for East Africa's leading retail chain, integrating real-time stock management with a seamless mobile experience.
+                  A complete digital overhaul for a leading multinational retail chain, integrating real-time stock management with a seamless mobile experience.
                 </p>
                 <Link href="#" className="inline-flex items-center gap-4 font-bold text-[10px] tracking-widest uppercase hover:gap-6 transition-all group">
                   Case Study <ArrowRight size={14} className="text-primary" />
@@ -244,7 +244,7 @@ export default function Home() {
             >
               <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary mb-8 md:mb-12 block ml-1">Client Voice</span>
               <blockquote className="text-3xl md:text-5xl font-light italic tracking-tight leading-snug text-foreground/90 text-balance">
-                "4Marcus didn't just write code; they transformed how we think about our digital presence in the East African market. Their engineering rigor is second to none."
+                "4Marcus didn't just write code; they transformed how we think about our digital presence in the global digital landscape. Their engineering rigor is second to none."
               </blockquote>
               <div className="mt-8 md:mt-12 flex items-center gap-6">
                 <div className="w-12 md:w-16 h-[2px] bg-primary"></div>

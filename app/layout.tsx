@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: '4marcus | Tech Consulting & Digital Transformation',
-  description: 'Strategic technology solutions for ambitious organizations. Specialized in digital transformation, technical infrastructure, and regional innovation in East Africa.',
+  description: 'Strategic technology solutions for ambitious organizations. Specialized in digital transformation, technical infrastructure, and global innovation.',
   viewport: {
     width: 'device-width',
     initialScale: 1,

@@ -13,8 +13,8 @@ export default function AboutPage() {
       description: 'We approach every digital challenge with an engineer\'s precision and a strategist\'s foresight.',
     },
     {
-      title: 'Regional Commitment',
-      description: 'Our roots in East Africa give us the unique perspective needed to scale local innovations globally.',
+      title: 'Global Reach',
+      description: 'Leveraging diverse perspectives to scale local innovations into global solutions.',
     },
     {
       title: 'Radical Transparency',
@@ -81,12 +81,12 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 md:gap-24">
           <div className="lg:col-span-5">
             <h2 className="text-xs font-bold uppercase tracking-[0.4em] text-primary mb-8 md:mb-12">The Story</h2>
-            <h3 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 md:mb-10 leading-[1.1] text-balance">Bridging technical gaps in East Africa since 2012.</h3>
+            <h3 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 md:mb-10 leading-[1.1] text-balance">Bridging technical gaps globally since 2021.</h3>
             <p className="text-lg md:text-xl text-muted-foreground/80 font-light leading-relaxed mb-6">
-              4Marcus was founded in Juba with a single mission: to provide world-class engineering talent to industries ready for digital evolution but lacking local technical infrastructure.
+              4Marcus was born from the vision of four friends across Kenya, Ethiopia, and South Sudan—software engineers united by a single mission: to build world-class digital infrastructure for a global stage.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground/80 font-light leading-relaxed">
-              Today, with hubs in Nairobi and Addis Ababa, we operate as a strategic partner for organizations that require more than just vendors—they require architects.
+              What started as a collaboration between friends has evolved into a strategic partner for organizations that require more than just vendors—they require architects.
             </p>
           </div>
           <div className="lg:col-span-1 border-l border-black/[0.03] hidden lg:block"></div>
@@ -105,7 +105,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <div className="text-4xl font-bold tracking-tighter mb-1">3</div>
-                <div className="text-[10px] uppercase tracking-widest font-bold text-muted-foreground">Regional Hubs</div>
+                <div className="text-[10px] uppercase tracking-widest font-bold text-muted-foreground">Global Hubs</div>
               </div>
             </div>
           </div>
