@@ -95,7 +95,7 @@ export default function AboutPage() {
             </div>
             <div className="mt-8 grid grid-cols-2 gap-8">
               <div>
-                <div className="text-4xl font-bold tracking-tighter mb-1">12+</div>
+                <div className="text-4xl font-bold tracking-tighter mb-1">4+</div>
                 <div className="text-[10px] uppercase tracking-widest font-bold text-muted-foreground">Years in Market</div>
               </div>
               <div>

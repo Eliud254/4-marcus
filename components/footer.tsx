@@ -20,12 +20,7 @@ const Footer = () => {
     { label: 'Contact', href: '/contact' },
   ]
 
-  const resources = [
-    { label: 'Blog', href: '/blog' },
-    { label: 'Case Studies', href: '#' },
-    { label: 'Insights', href: '#' },
-    { label: 'Resources', href: '#' },
-  ]
+
 
   return (
     <footer className="bg-[#0a0a0a] text-white border-t border-white/5">
@@ -119,27 +114,6 @@ const Footer = () => {
             </ul>
           </motion.div>
 
-          {/* Resources */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
-          >
-            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-            <ul className="space-y-3">
-              {resources.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-white/60 hover:text-accent transition-colors inline-block hover:translate-x-1 duration-200"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
         </div>
 
         {/* Divider */}
@@ -157,26 +131,7 @@ const Footer = () => {
           </div>
 
           {/* Social Links */}
-          <div className="flex items-center gap-3">
-            {[
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Twitter, href: '#', label: 'Twitter' },
-              { icon: Mail, href: '#', label: 'Email' },
-            ].map((social) => {
-              const Icon = social.icon
-              return (
-                <motion.a
-                  key={social.label}
-                  href={social.href}
-                  whileHover={{ y: -3, scale: 1.1 }}
-                  className="w-10 h-10 rounded-full bg-white/5 hover:bg-accent/20 border border-white/10 hover:border-accent/50 flex items-center justify-center text-white/60 hover:text-accent transition-all duration-300"
-                  aria-label={social.label}
-                >
-                  <Icon size={18} />
-                </motion.a>
-              )
-            })}
-          </div>
+
         </div>
       </div>
     </footer>
