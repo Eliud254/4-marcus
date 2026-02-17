@@ -11,7 +11,7 @@ export default function BlogPage() {
     {
       title: 'The Future of AI in Enterprise Solutions',
       excerpt: 'Explore how artificial intelligence is transforming business operations and creating competitive advantages.',
-      author: 'Alex Johnson',
+      author: 'Abel Amare',
       date: 'Feb 10, 2025',
       category: 'AI & Machine Learning',
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800'
@@ -19,7 +19,7 @@ export default function BlogPage() {
     {
       title: 'Digital Transformation Strategy: A Guide',
       excerpt: 'A comprehensive roadmap for businesses looking to modernize their digital infrastructure.',
-      author: 'Sarah Chen',
+      author: 'Nelson Wamalwa',
       date: 'Feb 05, 2025',
       category: 'Strategy',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800'
@@ -27,7 +27,7 @@ export default function BlogPage() {
     {
       title: 'Building Scalable Cloud Architecture',
       excerpt: 'Best practices for designing cloud systems that grow with your business needs.',
-      author: 'Marcus Williams',
+      author: 'Joseph Akaro',
       date: 'Jan 30, 2025',
       category: 'Cloud Infrastructure',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800'
@@ -35,7 +35,7 @@ export default function BlogPage() {
     {
       title: 'Cybersecurity in 2025: Staying Ahead',
       excerpt: 'Stay ahead of emerging security threats and protect your business from cyber attacks.',
-      author: 'Emma Rodriguez',
+      author: 'Eliud Obure',
       date: 'Jan 25, 2025',
       category: 'Security',
       image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800'

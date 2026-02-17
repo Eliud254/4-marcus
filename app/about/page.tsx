@@ -24,19 +24,24 @@ export default function AboutPage() {
 
   const leadership = [
     {
-      name: 'Alex Johnson',
-      role: 'Chief Technology Officer',
-      bio: '20+ years of enterprise architecture across global markets.',
+      name: 'Abel Amare',
+      role: 'Head of Development and Strategy',
+      bio: '10+ years of leadership in enterprise architecture, driving digital transformation and technical innovation across global markets.',
     },
     {
-      name: 'Sarah Chen',
-      role: 'Head of Strategy',
-      bio: 'Expert in navigating complex digital transformation roadmaps.',
+      name: 'Nelson Wamalwa',
+      role: 'Technical Operations Lead',
+      bio: '8+ years of expertise in technical operations and strategic growth, specializing in scaling agile teams and optimizing digital ecosystems.',
     },
     {
-      name: 'Marcus Williams',
-      role: 'Director of Development',
-      bio: 'Pioneer in building high-scale infrastructures in emerging markets.',
+      name: 'Joseph Akaro',
+      role: 'Senior Software Engineer',
+      bio: '7+ years engineering high-scale infrastructure solutions, with a deep focus on fintech systems and payment rails in emerging economies.',
+    },
+    {
+      name: 'Eliud Obure',
+      role: 'Software Engineer | Startup Strategy & Growth Advisor',
+      bio: '5+ years architecting distributed cloud-native systems, whilst advising early-stage startups on scalable technology stacks and growth strategies.',
     },
   ]
 
